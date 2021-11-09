@@ -1,0 +1,12 @@
+yazı = "Hava bugün çok güzel ama ben hastayım" #yazımın uzunluğu 37 karekter
+
+puts yazı[0]
+puts yazı[-3]
+
+puts yazı.slice(2)
+
+puts yazı[0, 15]
+puts yazı.slice(10, 3)
+
+
+puts yazı[0..15]
