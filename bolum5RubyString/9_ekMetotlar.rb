@@ -23,3 +23,5 @@ puts "MERHABA dünya".swapcase # büyük harfler küçük harfler dönüşür k�
 
 #her ! ile biten metod değişkenin en son halini kayıt eder
 
+yazı = "merhaba dünya"
+puts yazı.include?("M") # kelimesi mevcut mu?
