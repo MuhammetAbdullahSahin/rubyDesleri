@@ -13,5 +13,5 @@ dasfasfasfasfasfas
 =end
 
 # dasfasfasfasf
-# dasfasfasfasfasfas
-# dasfasfasfasfasfas ctrl+/
+# dasfasfasfasfasfas ctrl + k + c // ctrl + k + u
+# dasfasfasfasfasfas ctrl+/  atom

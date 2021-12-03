@@ -16,4 +16,4 @@ isimler = ["Ahmet", "Mehmet", "Emin"]
 
 puts
 
-isimler.each { |isim| puts isim.upcase }
+isimler.each { |isim| puts isim.upcase } # each listedeki her obje için bir döngü sağlar. objeleri kullanmak için"| |" kullanılır

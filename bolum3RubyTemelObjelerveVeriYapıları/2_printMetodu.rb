@@ -2,4 +2,4 @@ puts "Merhaba"
 puts "Dünya"
 
 print "merhaba "
-print " dünya"
+print " dünya" # boşluk oluşturmaz yan yana yazar

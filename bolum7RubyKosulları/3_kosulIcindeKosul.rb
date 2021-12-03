@@ -14,4 +14,4 @@ end
 
 
 
-yetki_kontrol("Abdullah", "password", true, true)
+yetki_kontrol("Abdullah", "password", true, false)

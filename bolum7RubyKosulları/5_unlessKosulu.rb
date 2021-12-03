@@ -6,7 +6,7 @@
 #
 # puts !true
 
-if !(şifre.length < 8)
+if !(şifre.length < 8) # true'yu false yapar
   puts "Şifre tamam"
 
 end

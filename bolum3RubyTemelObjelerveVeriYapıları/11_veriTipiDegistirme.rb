@@ -12,6 +12,6 @@ p sayi.to_f
 
 kusurlu_sayu = 3.89
 
-p kusurlu_sayu.to_s
+p kusurlu_sayu.to_s # sitringe dönüştürür
 
-p kusurlu_sayu.to_i
+p kusurlu_sayu.to_i # iint e çevirir

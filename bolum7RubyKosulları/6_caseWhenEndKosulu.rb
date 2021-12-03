@@ -1,25 +1,21 @@
 def renkler(renk)
-case renk
-when "Kırmızı"
-  "canlılık ve dinamizmin rengidir"
-when "Beyaz"
-  "saflığı ve temizliği ifade eder"
-when "Mavi"
-  "Sonsuzluğu ifade eder"
-when "Yeşli"
-  "Doğanın ve huzurun rengidir"
-when "Siyah", "Gri", "Lacivert"
-  "Koyu renkler"
-  else
-    "diğer renkler"
-  end
-
-
+  case renk # if yerine geçer direkt kontrol yapar
+    when "Kırmızı" #elsif yerine geçer direkt kontrol yapar
+     "canlılık ve dinamizmin rengidir"
+    when "Beyaz"
+      "saflığı ve temizliği ifade eder"
+    when "Mavi"
+      "Sonsuzluğu ifade eder"
+    when "Yeşli"
+      "Doğanın ve huzurun rengidir"
+    when "Siyah", "Gri", "Lacivert"
+      "Koyu renkler"
+    else
+      "diğer renkler"
+    end
 end
 
-
 puts renkler("Gri")
-
 
 def karne_notları(puan)
   case puan

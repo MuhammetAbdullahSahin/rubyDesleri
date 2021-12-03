@@ -1,10 +1,12 @@
 a = 25
 puts a
 
-a = a + 20
+# a = a + 20
 puts a
 
-a += 25
+a += 25 
+
+# a = a + 20 ifadesi a += 25 ifadesi ile aynı anlama gelmektedir
 
 puts a
 

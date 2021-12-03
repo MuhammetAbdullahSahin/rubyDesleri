@@ -1,4 +1,4 @@
-puts 5 == 5
+puts 5 == 5 # eşitlik operatörü
 puts 5 == 10
 
 a = 5
@@ -24,5 +24,5 @@ puts 3.to_f == 3.0
 puts
 
 
-puts 5 != 10
+puts 5 != 10 # Eşitsizlik operatörü eşit olmayan ifadelere kıyaslarken eşit değilse true sonucu verir
 puts 5 != 5

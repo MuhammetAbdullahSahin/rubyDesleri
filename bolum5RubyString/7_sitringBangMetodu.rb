@@ -12,3 +12,6 @@ puts yazı
 
 puts yazı.reverse!
 puts yazı
+
+puts yazı.reverse
+puts yazı

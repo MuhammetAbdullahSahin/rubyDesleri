@@ -7,7 +7,7 @@
 # end
 
 def araba_kontrol(araba)
-araba == "Fiat" ? "Araba Fiat" :  "başka marka"
+araba == "Fiat" ? "Araba Fiat" :  "başka marka" # ? ifadenin doğrukuğunu kontroleder. : değil ise anlamına gelir "else"
 end
 
 

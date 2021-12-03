@@ -3,7 +3,7 @@ while i <= 20
   puts i
   if i == 14
     puts "Değerimiz 14 e ulaştı"
-    break
+    break # dönggüyü kırar döngüden çıkış yapar
   end
   i += 2
 end

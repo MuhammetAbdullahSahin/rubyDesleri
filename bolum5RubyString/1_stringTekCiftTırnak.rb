@@ -6,12 +6,12 @@ isim = "abdullah"
 puts "merhaba #{isim} bugün nasılsın"
 puts 'merhaba #{isim} bugün nasılsın'
 
-yazı = <<UZUNYAZI
+yazı = <<baslangicvebitis
 
 lksfanjas jkasnmd salskdn   ksnfsa
   lkadsöfnldsk  lsfkdnö
 
-UZUNYAZI
+baslangicvebitis
 
 puts yazı
 

@@ -8,7 +8,7 @@
 #
 # puts
 #
-# 5.times { |sayac|
+# 5.times { |sayac| # sayaç değişkeni sadece blok içinde bulunur
 #
 #   puts "Bu yazıyı #{sayac + 1} defa tekrarladık"
 #

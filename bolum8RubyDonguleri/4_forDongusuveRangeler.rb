@@ -7,7 +7,7 @@ numaralar = [1, 2, 3]
 #
 # sayi = 25
 # p numara
-# for sayi in numaralar
+# for sayi in numaralar # for döngüsü içinde sayı değişkeni manipüle edilir each döngüsünde edilmez
 #   p sayi
 # end
 # puts sayi
