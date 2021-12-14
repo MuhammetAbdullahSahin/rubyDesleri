@@ -4,4 +4,6 @@ h = {
   isim: "Abdullah",
 }
 
-p h[:yas]
+a = h[:isim]
+b = h[:yas]
+puts a, b
