@@ -1,0 +1,1 @@
+puts "Dışarıdan gelen ruby kodu"
