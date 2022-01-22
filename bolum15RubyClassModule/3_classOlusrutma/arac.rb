@@ -1,0 +1,35 @@
+class Arac
+  attr_accessor :marka, :model
+
+  def initialize(marka, model)
+    @marka = marka
+    @model = model
+  end
+
+  def ozellikler
+    "Aracımızın markası: #{marka}, arabamızın modeli: #{model}"
+  end
+
+end
+
+class Otobus < Arac
+  attr_reader :hat
+
+  def initialize(marka, model, hat)
+    super(marka, model)
+    @hat = hat
+  end
+
+  def ozellikler
+    super + ", Otobus hattım: #{hat}"
+  end
+
+end
+
+
+metrobus = Otobus.new("Mersedes", "Capacity", "Avcılar-Zincirlikuyu")
+p metrobus.ozellikler
+p metrobus.hat
+
+arac = Arac.new("Audi", "A5")
+p arac.ozellikler

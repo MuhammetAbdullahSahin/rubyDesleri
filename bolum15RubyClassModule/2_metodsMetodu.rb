@@ -1,0 +1,1 @@
+puts [3,5].methods.sort

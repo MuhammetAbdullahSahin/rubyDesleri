@@ -1,0 +1,33 @@
+1. bölümdeki kodun nasıl daha kısa yazılacağını kodladık
+
+
+class Araba
+  attr_writer :renk #sadece değişkenin üzerine bir şeyler yazmamıza yarar
+  attr_reader :uretim_yili #sadece değişkenimizi okumamıza yarara
+  attr_accessor :marka, :model #yukardaki her iki işlemide yapmamıza yarar
+  
+  def initialize # privete class metodu
+    @marka = "AUDI"
+    @model = "A3"
+    @uretim_yili = "2020"
+    @renk = "Kırmızı"
+  end
+
+  def to_s # public class metodu
+    "Arabamızın markası: #{@marka}, arabamızın modeli: #{@model}"
+  end
+
+  def hangi_class
+    "Objemizin classı #{self.class}"
+  end
+end
+
+binek_arac = Araba.new
+
+binek_arac.marka = "BMW"
+binek_arac.model = "X5"
+
+p binek_arac.marka
+p binek_arac.model
+p binek_arac.uretim_yili
+binek_arac.renk = "Beyaz" # ":renk" attr_writer da yazıyorsaarka planda değişti ama biz bunu okuyamayacağız

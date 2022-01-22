@@ -1,0 +1,43 @@
+bu derste alt classları öğrendik
+
+class Arac
+  attr_accessor :marka, :model
+
+  def initialize(marka, model)
+    @marka = marka
+    @model = model
+  end
+
+  def ozellikler
+    "Aracımızın markası: #{marka}, arabamızın modeli: #{model}"
+  end
+  
+end
+
+class Otobus < Arac
+  
+  def tipi
+    "Uzun Arac"
+  end
+
+end
+
+class Araba < Arac
+  def tipi
+    "Binek Arac"
+  end
+
+  def ozellikler
+    "Arabamın modeli #{model}"
+  end
+end
+
+merobus = Otobus.new("Mersedes", "Capacity")
+p merobus.ozellikler
+p merobus.class
+p merobus.class.superclass
+p merobus.tipi
+
+araba = Araba.new("Audi", "A5")
+p araba.ozellikler
+p araba.tipi

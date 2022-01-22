@@ -1,0 +1,38 @@
+initialize metoduna parametre ekleme:
+
+
+class Araba
+  attr_writer :renk
+  attr_reader :uretim_yili, :renk, :arac_kodu
+  attr_accessor :marka, :model
+
+  def initialize(marka, model, uretim_yili, renk)
+    @marka = marka
+    @model = model
+    @uretim_yili = uretim_yili
+    @renk = renk
+    @arac_kodu = Array.new(20) { (("a".."z").to_a + (0..9).to_a).sample }.join
+  end
+
+  def to_s
+    "Arabamızın markası: #{@marka}, arabamızın modeli: #{@model}"
+  end
+
+  def hangi_class
+    "Objemizin classı #{self.class}"
+  end
+end
+
+# değerleri eksik girmek hata verir
+binek_arac = Araba.new("AUDI", "X5", 2020, "Kirmizi")
+agir_arac = Araba.new("BMW", "X6", 2020, "Beyaz")
+elektrikli_arac = Araba.new("TESLA", "ROADSTER", 2020, "Gümüş")
+
+p binek_arac.model 
+p agir_arac.uretim_yili
+p elektrikli_arac.renk
+p elektrikli_arac.arac_kodu
+
+
+
+# Array.new(20) { (("a".."z").to_a + (0..9).to_a).sample }.join #=> rastgele rakam harf oluşturma kodu
