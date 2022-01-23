@@ -44,4 +44,5 @@ while true
 
   puts
   puts "İşlem Sonucu: #{esitlik}"
+  break
 end
