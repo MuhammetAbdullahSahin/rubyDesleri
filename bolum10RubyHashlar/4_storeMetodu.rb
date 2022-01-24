@@ -13,5 +13,5 @@ sehirler[:ankara] = 24521
 p sehirler[:ankara]
 p sehirler
 
-sehirler.store(:antalya, 1417)
+sehirler.store(:antalya, 1417)# sona ekler
 p sehirler

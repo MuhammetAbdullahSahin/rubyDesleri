@@ -1,4 +1,4 @@
-cumle = "merhaba, bügün hava çok güzel."
+cumle = "merhaba, bugün hava çok güzel."
 
 p cumle.split
 p cumle.split(",")
